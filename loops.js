@@ -10,7 +10,6 @@ function forLoop(array){
       return "I am " + i + " strange loop.";
     }
   }
-  return array;
 }
  
 
