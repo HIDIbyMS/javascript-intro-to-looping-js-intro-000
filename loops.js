@@ -1,6 +1,3 @@
- // return `"I am ${i} strange loop${i === 0 ? '' : 's' && i === 1 ? '' : 's'}."`;
-// return `I am ${i} strange loop${i === 0 ? '' : 's'}.`;
-//     }
 
 function forLoop(array){
   for (let i = 0; i < 25; i++) {
@@ -15,11 +12,12 @@ function forLoop(array){
 
 
 function whileLoop(n) {
-  for (let i = n; i >= 0; i--){
-  console.log(i);
-  return 'done';
+  let countdown = 100;
+  while (countdown > 0) {
+    console.log(--countdown);
   }
-}
+}  
+  
   
 
 function doWhileLoop(num){
