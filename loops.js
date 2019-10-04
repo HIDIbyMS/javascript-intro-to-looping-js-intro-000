@@ -20,8 +20,8 @@ function whileLoop(n) {
   
 
 function doWhileLoop(num){
-  i = i + 1;
-  return i;
+  num = num + 1;
+  return num;
 }
 
  do {
